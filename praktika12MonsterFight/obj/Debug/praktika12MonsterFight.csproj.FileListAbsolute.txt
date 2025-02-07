@@ -1,0 +1,15 @@
+C:\Users\325L-05\Desktop\Белозёров Клим ПР-23\praktika12MonsterFight\bin\Debug\praktika12MonsterFight.exe.config
+C:\Users\325L-05\Desktop\Белозёров Клим ПР-23\praktika12MonsterFight\bin\Debug\praktika12MonsterFight.exe
+C:\Users\325L-05\Desktop\Белозёров Клим ПР-23\praktika12MonsterFight\bin\Debug\praktika12MonsterFight.pdb
+C:\Users\325L-05\Desktop\Белозёров Клим ПР-23\praktika12MonsterFight\bin\Debug\prakt11.exe
+C:\Users\325L-05\Desktop\Белозёров Клим ПР-23\praktika12MonsterFight\bin\Debug\prakt11.pdb
+C:\Users\325L-05\Desktop\Белозёров Клим ПР-23\praktika12MonsterFight\bin\Debug\prakt11.exe.config
+C:\Users\325L-05\Desktop\Белозёров Клим ПР-23\praktika12MonsterFight\obj\Debug\praktika12MonsterFight.csproj.AssemblyReference.cache
+C:\Users\325L-05\Desktop\Белозёров Клим ПР-23\praktika12MonsterFight\obj\Debug\praktika12MonsterFight.csproj.SuggestedBindingRedirects.cache
+C:\Users\325L-05\Desktop\Белозёров Клим ПР-23\praktika12MonsterFight\obj\Debug\praktika12MonsterFight.Form1.resources
+C:\Users\325L-05\Desktop\Белозёров Клим ПР-23\praktika12MonsterFight\obj\Debug\praktika12MonsterFight.Properties.Resources.resources
+C:\Users\325L-05\Desktop\Белозёров Клим ПР-23\praktika12MonsterFight\obj\Debug\praktika12MonsterFight.csproj.GenerateResource.cache
+C:\Users\325L-05\Desktop\Белозёров Клим ПР-23\praktika12MonsterFight\obj\Debug\praktika12MonsterFight.csproj.CoreCompileInputs.cache
+C:\Users\325L-05\Desktop\Белозёров Клим ПР-23\praktika12MonsterFight\obj\Debug\praktika12MonsterFight.csproj.CopyComplete
+C:\Users\325L-05\Desktop\Белозёров Клим ПР-23\praktika12MonsterFight\obj\Debug\praktika12MonsterFight.exe
+C:\Users\325L-05\Desktop\Белозёров Клим ПР-23\praktika12MonsterFight\obj\Debug\praktika12MonsterFight.pdb
