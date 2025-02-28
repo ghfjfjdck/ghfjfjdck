@@ -1,0 +1,10 @@
+C:\Users\st310-10\Desktop\A РЖД Машинист Поезда 31\Aptechka\bin\Debug\Aptechka.exe.config
+C:\Users\st310-10\Desktop\A РЖД Машинист Поезда 31\Aptechka\bin\Debug\Aptechka.exe
+C:\Users\st310-10\Desktop\A РЖД Машинист Поезда 31\Aptechka\bin\Debug\Aptechka.pdb
+C:\Users\st310-10\Desktop\A РЖД Машинист Поезда 31\Aptechka\obj\Debug\Aptechka.csproj.AssemblyReference.cache
+C:\Users\st310-10\Desktop\A РЖД Машинист Поезда 31\Aptechka\obj\Debug\Aptechka.Form1.resources
+C:\Users\st310-10\Desktop\A РЖД Машинист Поезда 31\Aptechka\obj\Debug\Aptechka.Properties.Resources.resources
+C:\Users\st310-10\Desktop\A РЖД Машинист Поезда 31\Aptechka\obj\Debug\Aptechka.csproj.GenerateResource.cache
+C:\Users\st310-10\Desktop\A РЖД Машинист Поезда 31\Aptechka\obj\Debug\Aptechka.csproj.CoreCompileInputs.cache
+C:\Users\st310-10\Desktop\A РЖД Машинист Поезда 31\Aptechka\obj\Debug\Aptechka.exe
+C:\Users\st310-10\Desktop\A РЖД Машинист Поезда 31\Aptechka\obj\Debug\Aptechka.pdb
