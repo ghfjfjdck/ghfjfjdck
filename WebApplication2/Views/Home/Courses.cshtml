@@ -1,0 +1,10 @@
+﻿@model IEnumerable<Course>
+
+<h2>Список курсов</h2>
+<a href="@Url.Action("Create", "Course")">Добавить курс</a>
+<ul>
+    @foreach (var course in Model)
+    {
+        <li>@course.Title - @course.Description</li>
+    }
+</ul>

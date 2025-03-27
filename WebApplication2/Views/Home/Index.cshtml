@@ -1,0 +1,156 @@
+﻿@model IEnumerable<Student>
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список студентов</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        a {
+            display: inline-block;
+            margin-bottom: 15px;
+            text-decoration: none;
+            color: #5cb85c;
+            font-weight: bold;
+        }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            background: #fff;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 4px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .notification {
+            display: none; /* Скрываем уведомление по умолчанию */
+            margin-bottom: 15px;
+            color: #5cb85c;
+            font-weight: bold;
+        }
+        /* Стили для модального окна */
+        .modal {
+            display: none; /* Скрываем модальное окно по умолчанию */
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0,0.4);
+            padding-top: 60px;
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 400px;
+            border-radius: 5px;
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+            .close:hover,
+            .close:focus {
+                color: black;
+                text-decoration: none;
+                cursor: pointer;
+            }
+    </style>
+</head>
+<body>
+    <h2>Список студентов</h2>
+    <a href="@Url.Action("Create", "Student")">Добавить студента</a>
+
+    @if (TempData["Notification"] != null)
+    {
+        <div class="notification" id="notification">
+            @TempData["Notification"]
+        </div>
+    }
+
+    <ul>
+        @if (Model != null && Model.Any())
+        {
+            foreach (var student in Model)
+            {
+                <li>@student.Name - @student.Email</li>
+            }
+        }
+        else
+        {
+            <li>Нет студентов для отображения.</li>
+        }
+    </ul>
+
+    <!-- Модальное окно -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <p id="modalMessage"></p>
+        </div>
+    </div>
+
+    <script>
+        // Функция для отображения модального окна
+        function showModal(message) {
+            document.getElementById('modalMessage').innerText = message;
+            document.getElementById('myModal').style.display = "block";
+        }
+
+        // Закрытие модального окна
+        document.getElementById('closeModal').onclick = function() {
+            document.getElementById('myModal').style.display = "none";
+        }
+
+        // Закрытие модального окна при нажатии вне его
+        window.onclick = function(event) {
+            var modal = document.getElementById('myModal');
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+        // Если есть уведомление, показываем модальное окно
+        window.onload = function() {
+            var notification = document.getElementById('notification');
+            if (notification) {
+                showModal(notification.innerText);
+                notification.style.display = "none"; // Скрываем уведомление
+            }
+        }
+    </script>
+</body>
+</html>
+``
